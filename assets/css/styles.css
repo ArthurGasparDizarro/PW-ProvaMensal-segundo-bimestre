@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-image: url("../img/img_pata.jpg");
+}
+main{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+#caixa-buscar{
+width: 75%;
+height: auto;
+background-image: linear-gradient(to right top, #d16ba5, #d271ad, #d278b5, #d37ebd, #d384c4, #d98bc4, #df93c5, #e49bc6, #eba8c4, #efb7c6, #f1c5cb, #f0d4d4);
+align-items: center;
+border-radius: 20px;
+display: flex;
+flex-direction: column;
+margin-top: 1.4%
+}
+
+
+
+button{
+    width: 60%;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 16.66%;
+    margin-right: 16.66%;
+    margin-top: 2%;
+    border-radius: 20px;
+    margin-bottom: 1%;
+    border: solid;
+    border-color: pink;
+    background-color: #7c7479;
+}
+
+
+.fotogato{
+    width: 85%;
+    height:500px;
+    margin: 0 auto;
+    border-radius: 15px;
+    margin-bottom: 1%;
+}
+
+#h3pequeno{
+width: 65%;
+height: auto;
+font-size: -10em;
+margin-top:12px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+display: flex;
+flex-direction: column;
+align-items: center;
+color: #491734;
+}
+
+#h3grande{
+width: 65%;
+height: auto;
+font-size: 25px;
+margin-top:12px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+flex-direction: column;
+text-align: center;
+align-items: center;
+display: none;
+color: #491734;
+
+}
+
+
+
+@media (min-width: 500px){
+
+    #h3pequeno{
+        display: none;
+    }
+
+    #h3grande{
+        display: block;
+    }
+    
+    .fotogato{
+
+        width: 65%;
+        height: 25%;
+
+    }
+}
